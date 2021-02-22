@@ -393,6 +393,242 @@ ul .sub-menu__list {
   background-color: #2CC9CC;
 }
 
+.home-main {
+  width: 100%;
+  height: 100%;
+  color: #F3F3F3;
+}
+
+.main-title {
+  width: 100%;
+  height: 100%;
+  color: #F3F3F3;
+  position: absolute;
+  top: 40%;
+  z-index: 20;
+}
+
+.main-title__content {
+  max-width: 753px;
+}
+
+.main-title__sub-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2CC9CC;
+}
+
+.main-title__title {
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 110%;
+}
+
+.main-title__btn {
+  margin-top: 30px;
+}
+
+.main-title__btn a {
+  padding: 18px 40px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #020A17;
+  background-color: #2CC9CC;
+  -webkit-transition: background-color .2s linear;
+  -o-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+.main-title__btn a:hover {
+  background-color: #20E4A4;
+}
+
+.btn-text a {
+  max-width: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-text a img {
+  padding-left: 30px;
+}
+
+.main-info {
+  position: absolute;
+  top: 25%;
+  right: -15%;
+  z-index: 21;
+  float: right;
+  width: 463px;
+  height: 505px;
+  background-color: #F3F3F3;
+  color: #020A17;
+  opacity: 0.4;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.main-info:hover {
+  right: 0;
+  opacity: 1;
+}
+
+.main-info__content {
+  padding: 30px 40px;
+}
+
+.main-info__info {
+  margin: 20px 0;
+}
+
+.main-info__title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.main-info__sub-title {
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+.main-info__doctor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.main-info__reception {
+  padding-top: 20px;
+}
+
+.main-info__reception a {
+  width: 100%;
+  background-color: #2CC9CC;
+  padding: 16px 96px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #020A17;
+  -webkit-transition: background-color .1s linear;
+  -o-transition: background-color .1s linear;
+  transition: background-color .1s linear;
+}
+
+.main-info__reception a:hover {
+  background-color: #20E4A4;
+}
+
+.doctor-1 {
+  padding-top: 0;
+}
+
+.doctor-img img {
+  border-radius: 50%;
+}
+
+.doctor-info {
+  padding-left: 15px;
+}
+
+.doctor-info__name {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.doctor-info__prof {
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+.doctor-time {
+  padding-left: 44px;
+  font-size: 18px;
+  color: #20E4A4;
+}
+
+.research-btn {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #F3F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 22;
+}
+
+.research-btn__info {
+  width: 100%;
+  text-align: center;
+}
+
+.research-btn__types {
+  width: 100%;
+  text-align: center;
+  padding: 35px 0;
+  background-color: #E4E4E4;
+  color: #CECECE;
+  font-weight: 800;
+  font-size: 30px;
+  cursor: pointer;
+  height: 110px;
+}
+
+.research-btn__types .research-btn__about {
+  display: none;
+}
+
+.research-btn__prices {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+  padding: 35px 0;
+  background-color: #E4E4E4;
+  color: #CECECE;
+  font-weight: 800;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.research-btn__prices .research-btn__about {
+  display: none;
+}
+
+.research-btn__about {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.active-research {
+  padding: 50px 0;
+  background-color: #F3F3F3;
+  font-weight: 800;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.active-research .research-btn__about {
+  color: #E4E4E4;
+}
+
+.active-research .research-btn__title {
+  color: #20E4A4;
+}
+
 @font-face {
   font-family: "Geometria";
   font-display: swap;
@@ -414,6 +650,14 @@ ul .sub-menu__list {
   font-display: swap;
   src: url("../fonts/geometria.woff") fortmat("woff"), url("../fonts/geometria.woff2") format("woff2");
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  font-display: swap;
+  src: url("../fonts/geometria-extrabold.woff") fortmat("woff"), url("../fonts/geometria-extrabold.woff2") format("woff2");
+  font-weight: 900;
   font-style: normal;
 }
 
