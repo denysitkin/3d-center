@@ -28,7 +28,8 @@
 // }
 
 $(document).ready(function() {
-    $('.menu__icon').click(function(event) {
-        $('.menu__icon, .menu, .header, .menu, .header-adapt, .header-content__logo').toggleClass('active');
+    $('.header-content__burger').click(function(event) {
+        $('.header-content__burger').toggleClass('active');
+        $('.menu-adapt').toggleClass('menu-opened');
     });
 });
